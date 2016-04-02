@@ -1,3 +1,35 @@
+### 0.7.2
+
+#### Breaking changes
+
+`min` and `max` attributes are refactored to `mdp-min-date` and `mdp-max-date` respectively and are setup as two-way binding
+
+#### Features
+
+* Floating labels and `mdp-no-float` attribute
+* Directives are restricted to (A)ttribute and (E)lement
+* `mdp-open-on-click` attribute for open date picker by clicking on the input
+
+### 0.7.1
+
+Bugfixes and improvements
+
+### 0.7.0
+
+Bugfixes and improvements (obviously.. :))
+
+#### Breaking Changes
+
+* `mdpTimePicker` and `mdpDatePicker` are now restricted to and Element (see demo for details)
+* Pickers will not open clicking the input, but using the button
+
+#### Features
+
+* Button for open dialog
+* Set first day of the week by changing Moment.js localeData
+* Customize date format on date picker
+* Dialog will not close others (needs angular material >= 1.1.0rc-1)
+
 ### 0.6.1
 
 Minor bugfixes and improvements
